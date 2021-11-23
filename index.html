@@ -78,7 +78,7 @@
   </ul>
   <div class="main-content">
   	<h2 class="content-title">content title</h2>
-	  <button onclick="welcomeMessage()">Test</button>
+	  <button onclick="welcomeMessage()">Testv3</button>
   </div>
   <script>
       if ('speechSynthesis' in window) {
@@ -92,12 +92,11 @@
 		var msg = new SpeechSynthesisUtterance();
 	      	var voices = window.speechSynthesis.getVoices();
 
-	      	msg.voice = voices[8]; 
+	      	msg.voice = voices[2]; 
 		msg.volume = 1; // From 0 to 1
 		msg.rate = 0.6; // From 0.1 to 10
 		msg.pitch = 2; // From 0 to 2
-	      	msg.lang = 'en';
-		msg.text = "system voice test 2";
+		msg.text = "system voice test 3";
 		window.speechSynthesis.speak(msg);
 	}
   </script>
