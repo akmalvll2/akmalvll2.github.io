@@ -84,7 +84,7 @@
   <script>
       if ('speechSynthesis' in window) {
           // Speech Synthesis supported 🎉
-          alert("Yay, text to speech are ready!");
+          welcomeMessage();
       } else {
           // Speech Synthesis Not Supported 😣
           alert("Sorry, your browser doesn't support text to speech!");
@@ -92,7 +92,7 @@
 	  
 	function welcomeMessage (){
 		var msg = new SpeechSynthesisUtterance();
-		msg.text = "Welcome to the system. What can I help you?";
+		msg.text = "hai. this browser support AI voices like me. welcome to this website";
 		window.speechSynthesis.speak(msg);
 	}
   </script>
