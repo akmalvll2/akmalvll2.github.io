@@ -79,6 +79,7 @@
   <div class="main-content">
   	<h2 class="content-title">content title</h2>
   	<p>example message..</p>
+	  <button onclick="welcomeMessage()">Hey There</button>
   </div>
   <script>
       if ('speechSynthesis' in window) {
@@ -90,7 +91,6 @@
       }
 	  
       function welcomeMessage() {
-          	alert("Yay , this browser support tts api");
 		var msg = new SpeechSynthesisUtterance();
 		msg.text = "hai. this browser support AI voices like me. welcome to this website";
 		window.speechSynthesis.speak(msg);
