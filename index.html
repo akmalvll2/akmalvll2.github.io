@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 	<style>
     	body {
@@ -80,5 +80,13 @@
   	<h2 class="content-title">content title</h2>
   	<p>example message..</p>
   </div>
+  <script>
+      if ('speechSynthesis' in window) {
+          // Speech Synthesis supported 🎉
+      } else {
+          // Speech Synthesis Not Supported 😣
+          alert("Sorry, your browser doesn't support text to speech!");
+      }
+  </script>
 </body>
 </html>
