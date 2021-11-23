@@ -83,16 +83,14 @@
   <script>
       if ('speechSynthesis' in window) {
           // Speech Synthesis supported 🎉
-          window.onload = function () {
-              welcomeMessage();
-          }
+          welcomeMessage();
       } else {
           // Speech Synthesis Not Supported 😣
           alert("Sorry, your browser doesn't support text to speech!");
       }
 	  
       function welcomeMessage() {
-          alert("Yay , this browser support tts api");
+          	alert("Yay , this browser support tts api");
 		var msg = new SpeechSynthesisUtterance();
 		msg.text = "hai. this browser support AI voices like me. welcome to this website";
 		window.speechSynthesis.speak(msg);
