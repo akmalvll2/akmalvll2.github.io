@@ -84,7 +84,7 @@
   <script>
       if ('speechSynthesis' in window) {
           // Speech Synthesis supported 🎉
-          welcomeMessage();
+	      setTimeout (welcomeMessage,5000);
       } else {
           // Speech Synthesis Not Supported 😣
           alert("Sorry, your browser doesn't support text to speech!");
