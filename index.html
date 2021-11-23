@@ -92,10 +92,10 @@
 		var msg = new SpeechSynthesisUtterance();
 	      	msg.voice = voices[9]; 
 		msg.volume = 1; // From 0 to 1
-		msg.rate = 1; // From 0.1 to 10
+		msg.rate = 0.8; // From 0.1 to 10
 		msg.pitch = 2; // From 0 to 2
 	      	msg.lang = 'en';
-		msg.text = "hai. this browser support AI voices like me. welcome to this website";
+		msg.text = "system voice test 1";
 		window.speechSynthesis.speak(msg);
 	}
   </script>
