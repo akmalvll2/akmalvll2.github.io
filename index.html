@@ -79,12 +79,13 @@
   <div class="main-content">
   	<h2 class="content-title">content title</h2>
   	<p>example message..</p>
-	  <button onclick="welcomeMessage()">Click Me</button>
   </div>
   <script>
       if ('speechSynthesis' in window) {
           // Speech Synthesis supported 🎉
-          welcomeMessage();
+          window.onload = function () {
+              welcomeMessage();
+          }
       } else {
           // Speech Synthesis Not Supported 😣
           alert("Sorry, your browser doesn't support text to speech!");
