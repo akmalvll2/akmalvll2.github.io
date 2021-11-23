@@ -79,6 +79,7 @@
   <div class="main-content">
   	<h2 class="content-title">content title</h2>
   	<p>example message..</p>
+	  <button onclick="welcomeMessage()">Click Me</button>
   </div>
   <script>
       if ('speechSynthesis' in window) {
@@ -89,9 +90,11 @@
           alert("Sorry, your browser doesn't support text to speech!");
       }
 	  
-	var msg = new SpeechSynthesisUtterance();
-	msg.text = "Hello World";
-	window.speechSynthesis.speak(msg);
+	function welcomeMessage (){
+		var msg = new SpeechSynthesisUtterance();
+		msg.text = "Hello World";
+		window.speechSynthesis.speak(msg);
+	}
   </script>
 </body>
 </html>
