@@ -3,7 +3,9 @@ import '../homepage/Homepage.css'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div className="homepage">
+        Homepage
+    </div>
   )
 }
 
