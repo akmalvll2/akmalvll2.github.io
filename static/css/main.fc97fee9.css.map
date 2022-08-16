@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.fc97fee9.css","mappings":"AAAA,KACE,qBAAsB,CACtB,aACF","sources":["App.css"],"sourcesContent":[".App {\n  background-color: blue;\n  color:aliceblue;\n}\n"],"names":[],"sourceRoot":""}
