@@ -1,0 +1,12 @@
+.nav-link {
+    margin: 0;
+    height: 50px;
+}
+.nav-link:hover {
+    background-color: gray;
+    color: azure;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+}

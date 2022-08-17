@@ -1,10 +1,12 @@
 import './App.css';
-import Homepage from '../src/pages/homepage/Homepage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Navi from './components/navigation/Navigation'
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
+      <Navi />
     </div>
   );
 }
