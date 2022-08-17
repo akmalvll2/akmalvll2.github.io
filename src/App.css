@@ -7,3 +7,26 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100vh;
 }
+.main-content {
+  padding: 20px;
+}
+.App .btn-custom {
+  /* From https://css.glass */
+  background: rgba(53, 75, 142, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.8px);
+  -webkit-backdrop-filter: blur(16.8px);
+  border: 1px solid rgba(53, 75, 142, 0.23);
+  color:  azure;
+}
+.App .btn-custom:hover {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.8px);
+  -webkit-backdrop-filter: blur(16.8px);
+  border: 1px solid rgba(53, 75, 142, 0.23);
+  color:  gray;
+}
