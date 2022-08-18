@@ -11,7 +11,7 @@ const Homepage = () => {
                 <Col><h1>I am a Web Developer, Learner and Future Web Tech Specialist</h1></Col>
             </Row>
             <Row>
-                <Col><Button href={CV} variant="custom" download> Download C </Button></Col>
+                <Col><Button href={CV} variant="custom" download> Download CV </Button></Col>
             </Row>
         </Container>
     </div>
