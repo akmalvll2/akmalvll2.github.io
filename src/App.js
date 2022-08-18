@@ -1,19 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container,Button } from 'react-bootstrap'
-import CV from '../src/asset/BadrulAkmalResume.pdf'
-
+import BackgroundVideoPlayer from 'react-background-video-player'
 import Navi from './components/navigation/Navigation'
+import Homepage from './components/homepage/Homepage'
 
 function App() {
   return (
     <div className="App">
+      <BackgroundVideoPlayer 
+        src=''
+        autoPlay={true}
+        muted={true}
+      />
       <Navi />
-      <Container className="main-content">
-        <Button href={CV} variant="custom" download>
-          Download
-        </Button>
-      </Container>
+      <Homepage />
     </div>
   );
 }

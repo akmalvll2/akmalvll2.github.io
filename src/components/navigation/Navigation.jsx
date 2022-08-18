@@ -7,7 +7,7 @@ const Navigation = () => {
     <div>
         <Navbar className="nav" bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">Logo/Brand</Navbar.Brand>
+                <Navbar.Brand href="#home"><span style={{ color:'Gold' }}>My</span>Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
