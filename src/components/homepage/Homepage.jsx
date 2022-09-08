@@ -10,9 +10,6 @@ const Homepage = () => {
             <Row>
                 <Col><h1>I am a Web Developer, <br/>Learner and <br/>Future Web Tech Specialist</h1></Col>
             </Row>
-            <Row>
-                <Col><Button href={CV} variant="custom" size={'lg'} download> Download CV </Button></Col>
-            </Row>
         </Container>
     </div>
   )
